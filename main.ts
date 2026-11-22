@@ -2,10 +2,10 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ENTRY_TEXT = [
-  'Tea cools to the warmth of your hands.',
-  'Outside, snow rounds the edge of the fence rail.',
-  'The table takes your elbows. The chair takes your back.',
-  'Everything left undone has already agreed to wait until morning.',
+  'A fieldstone rests in the hollow it pressed into the pasture.',
+  'Moss closes the seam between rock and grass.',
+  'Late sun warms the top; damp clay cradles the underside.',
+  'The earth keeps a cup around it, and the stone gives every pound of its weight away.',
 ].join('\n');
 
 function countCodePoints(text: string): number {
